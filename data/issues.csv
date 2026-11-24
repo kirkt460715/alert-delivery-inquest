@@ -1,0 +1,9 @@
+period,version,prev,minute,covered,change,owner
+A1,V01,,0,V1|V2,issue,county
+A1,V02,V01,4,V1|V2,resend,county
+A1,V03,V02,12,V1|V2|V3,action,county
+A1,V04,V03,20,V1|V2,cancel_part,town
+A2,V01,,0,V1|V3,issue,town
+A2,V02,V01,11,V1|V3,action,town
+A3,V01,,0,V1|V2|V3,issue,county
+A3,V02,V01,15,V1|V2|V3,resend,county

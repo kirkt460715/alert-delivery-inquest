@@ -1,0 +1,6 @@
+device,source,min_offset,max_offset
+dispatch,office,0,0
+sms-relay,operator,-3,4
+station-b,radio,-6,2
+voice-copy,radio,-6,2
+village-book,local,-5,5

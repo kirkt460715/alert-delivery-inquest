@@ -1,0 +1,80 @@
+{
+  "tables": {
+    "contracts": [
+      "party",
+      "villages",
+      "minutes",
+      "dispute_deadline",
+      "proof"
+    ],
+    "clocks": [
+      "device",
+      "source",
+      "min_offset",
+      "max_offset"
+    ],
+    "issues": [
+      "period",
+      "version",
+      "prev",
+      "minute",
+      "covered",
+      "change",
+      "owner"
+    ],
+    "handoffs": [
+      "period",
+      "version",
+      "from_party",
+      "to_party",
+      "accepted_minute",
+      "scope"
+    ],
+    "receipts": [
+      "id",
+      "period",
+      "candidates",
+      "minute",
+      "device",
+      "scope",
+      "root",
+      "kind",
+      "copy_count",
+      "received_day"
+    ],
+    "observed_order": [
+      "period",
+      "earlier",
+      "later",
+      "received_day"
+    ],
+    "disputes": [
+      "case",
+      "period",
+      "party",
+      "day",
+      "state",
+      "scope"
+    ]
+  },
+  "references": [
+    [
+      "receipts",
+      "device",
+      "clocks",
+      "device"
+    ],
+    [
+      "observed_order",
+      "earlier",
+      "receipts",
+      "id"
+    ],
+    [
+      "observed_order",
+      "later",
+      "receipts",
+      "id"
+    ]
+  ]
+}

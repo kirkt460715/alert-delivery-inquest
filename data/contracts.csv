@@ -1,0 +1,4 @@
+party,villages,minutes,dispute_deadline,proof
+CARRIER,V1|V2,18,30,confirmed_chain
+RADIO,V2|V3,11,28,confirmed_chain
+LOCAL,V1|V2|V3,23,35,local_witness

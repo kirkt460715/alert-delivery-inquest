@@ -1,0 +1,8 @@
+period,version,from_party,to_party,accepted_minute,scope
+A1,V01,county,CARRIER,7,V1|V2
+A1,V03,county,RADIO,14,V2|V3
+A1,V03,county,LOCAL,15,V1
+A1,V04,county,town,19,V1|V2|V3
+A2,V01,town,RADIO,2,V3
+A3,V01,county,CARRIER,2,V1|V2
+A3,V01,county,RADIO,3,V2|V3
